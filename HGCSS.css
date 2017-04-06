@@ -1,0 +1,77 @@
+
+
+body {
+    background: lightblue;
+    background: linear-gradient(lightblue, lightgreen);
+    text-align: center;
+    width: 1024px;
+  }
+  h1{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+        width: 1024px;
+
+    }
+  img {
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #letterBank {
+    position:relative;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -140%);
+    flex-direction: row;
+    margin: 10px;
+    width: 1024px;
+  }
+
+#splashPage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  #gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    padding: inherit;
+    display: inline-flex;
+    margin: 0 auto;
+    width: 1024px;
+  }
+#prologue {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px;
+  }
+
+#submit{
+       font-size: 35px;
+       width: 200px;
+       height: 35px;
+       float: right;
+       line-height: 35px;
+       text-align: center;
+       color: white;
+       background-color: #00b100;
+       border-radius: 25px;
+       cursor: pointer;
+   }
+#letterBank{
+  flex-wrap: wrap;
+    width: 225px;
+    height: 450px;
+    margin: 10px auto;
+  }

@@ -1,0 +1,28 @@
+<?xml version="1.0"?><svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Leaf</title>
+ <defs>
+  <linearGradient id="linearGradient3183">
+   <stop stop-color="#ffffff" stop-opacity="0" id="stop3185" offset="0"/>
+   <stop stop-color="#65c734" stop-opacity="0.630252" offset="0.662236" id="stop3191"/>
+   <stop stop-color="#ddffcd" id="stop3187" offset="1"/>
+  </linearGradient>
+  <linearGradient gradientUnits="userSpaceOnUse" y2="595.4682" x2="413.48505" y1="699.50507" x1="515.71649" id="linearGradient3189" xlink:href="#linearGradient3183"/>
+  <linearGradient y2="0.195295" x2="0.283283" y1="1" x1="1.000015" id="linearGradient3988" xlink:href="#linearGradient3183"/>
+ </defs>
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="g3979">
+    <g fill="#339900" id="g2391">
+     <path fill="#339900" fill-rule="evenodd" stroke-width="1px" id="path2383" d="m732.800903,49.933632c-94.301392,237.918266 19.174133,626.447777 -483.981781,567.999962c-308.682087,-367.271103 383.938934,-273.169037 483.981781,-567.999962z"/>
+     <path fill="#339900" fill-rule="evenodd" stroke-width="1px" id="path2385" d="m248.819122,617.933594l-237.052353,131.857056l39.508675,81.143005l197.543678,-213.000061z"/>
+    </g>
+    <path fill="url(#linearGradient3988)" fill-rule="evenodd" stroke-width="1px" d="m256.226868,602.71936c398.725586,-410.384445 437.065247,-458.964447 437.065247,-458.964447c-201.424744,211.670685 -650.039719,150.832275 -437.065247,458.964447z" id="path3165"/>
+    <path fill="none" fill-rule="evenodd" stroke="#007800" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="4" stroke-dashoffset="0" d="m259.894531,609.639709c96.476105,-135.600677 246.29425,-262.607422 355.302734,-380.878494c52.091125,-56.517471 76.481384,-67.442856 94.357056,-123.585686" id="path2409"/>
+    <path fill="none" fill-rule="evenodd" stroke="#006100" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="m251.28833,614.129944c106.433777,-11.184387 198.280273,49.538574 323.210327,-73.199463c127.53363,-125.296173 121.092041,-410.575806 126.924561,-412.363373" id="path3959"/>
+    <path fill="#77c452" fill-rule="evenodd" stroke-width="1px" d="m16.705307,751.058655l38.274117,34.232056l171.615974,-152.142761l-209.890091,117.910706z" id="path3973"/>
+   </g>
+  </g>
+ </g>
+</svg>

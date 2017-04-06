@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>Shake the  Tree!</title>
+    <link rel="stylesheet" type="text/css" href="./HGCSS.css">
+  </head>
+
+<body>
+  <div id="splashPage">
+    <h1>SHAKE THE APPLE TREE!</h1>
+    <div id="startButton" onclick="startButton()">START</div>
+<!-- Add jQ to make the apple icon fall into the next screen while the splash scrolls up to reveal the the Prologue.// -->
+  </div>
+
+  <div id="prologue">
+      <h2>Issac Newton has come up with his latest and greatest discovery! Now he needs to explain it so he can once again become the preeminent Scientist of our time! Sitting at his favorite spot for inspiration, he gets the impression this TREE might be conspiring against him...</h2>
+      <h2>Click on the apples to help inspire him but be careful, a bad apple can spoil the bunch!</h2>
+      <div id="contButton" onclick="contButton()">CONTINUE</div>
+  </div>
+
+  <div id="gameBoard" width=1080px, height=785px>
+    <img src="./Newton1.png" alt="SIN on a computer under a tree"/>
+  <!-- <div id="underline1">
+      <div id="letter1"></div></div>
+  <div id="underline2">
+      <div id="letter2"></div></div>
+  <div id="underline3">
+      <div id="letter3"></div></div>
+  <div id="underline4">
+      <div id="letter4"></div></div>
+  <div id="underline5">
+      <div id="letter5"></div></div>
+  <div id="underline6">
+      <div id="letter6"></div></div>
+  <div id="underline7">
+      <div id="letter7"></div></div>
+  <div id="underline8">
+      <div id="letter8"></div></div>
+  <div id="underline9">
+      <div id="letter9"></div></div>
+  <div id="underline10">
+      <div id="letter10"></div></div>
+  <div id="underline11">
+      <div id="letter11"></div></div>
+  <div id="underline12">
+      <div id="letter12"></div></div>
+  <div id="underline13">
+      <div id="letter13"></div></div>
+  <div id="underline14">
+      <div id="letter14"></div></div> -->
+
+      <div id = "letterBank">
+
+        <div id = "A" value "A" onclick="guessLetter()"><img src= "Apple A.png" alt="Apple letter"/></div>
+        <div id = "B" value "B" onclick="guessLetter()"><img src= "Apple B.png" alt="Apple letter"/></div>
+        <div id = "C" value "C" onclick="guessLetter()"><img src= "Apple C.png" alt="Apple letter"/></div>
+        <div id = "D" value "D" onclick="guessLetter()"><img src= "Apple D.png" alt="Apple letter"/></div>
+        <div id = "E" value "E" onclick="guessLetter()"><img src= "Apple E.png" alt="Apple letter"/></div>
+        <div id = "F" value "F" onclick="guessLetter()"><img src= "Apple F.png" alt="Apple letter"/></div>
+        <div id = "G" value "G" onclick="guessLetter()"><img src= "Apple G.png" alt="Apple letter"/></div>
+        <div id = "H" value "H" onclick="guessLetter()"><img src= "Apple H.png" alt="Apple letter"/></div>
+        <div id = "I" value "I" onclick="guessLetter()"><img src= "Apple I.png" alt="Apple letter"/></div>
+        <div id = "J" value "J" onclick="guessLetter()"><img src= "Apple J.png" alt="Apple letter"/></div>
+        <div id = "K" value "K" onclick="guessLetter()"><img src= "Apple K.png" alt="Apple letter"/></div>
+        <div id = "L" value "L" onclick="guessLetter()"><img src= "Apple L.png" alt="Apple letter"/></div>
+        <div id = "M" value "M" onclick="guessLetter()"><img src= "Apple M.png" alt="Apple letter"/></div>
+        <div id = "N" value "N" onclick="guessLetter()"><img src= "Apple N.png" alt="Apple letter"/></div>
+        <div id = "O" value "O" onclick="guessLetter()"><img src= "Apple O.png" alt="Apple letter"/></div>
+        <div id = "P" value "P" onclick="guessLetter()"><img src= "Apple P.png" alt="Apple letter"/></div>
+        <div id = "Q" value "Q" onclick="guessLetter()"><img src= "Apple Q.png" alt="Apple letter"/></div>
+        <div id = "R" value "R" onclick="guessLetter()"><img src= "Apple R.png" alt="Apple letter"/></div>
+        <div id = "S" value "S" onclick="guessLetter()"><img src= "Apple S.png" alt="Apple letter"/></div>
+        <div id = "T" value "T" onclick="guessLetter()"><img src= "Apple T.png" alt="Apple letter"/></div>
+        <div id = "U" value "U" onclick="guessLetter()"><img src= "Apple U.png" alt="Apple letter"/></div>
+        <div id = "V" value "V" onclick="guessLetter()"><img src= "Apple V.png" alt="Apple letter"/></div>
+        <div id = "W" value "W" onclick="guessLetter()"><img src= "Apple W.png" alt="Apple letter"/></div>
+        <div id = "X" value "X" onclick="guessLetter()"><img src= "Apple X.png" alt="Apple letter"/></div>
+        <div id = "Y" value "Y" onclick="guessLetter()"><img src= "Apple Y.png" alt="Apple letter"/></div>
+        <div id = "Z" value "Z" onclick="guessLetter()"><img src= "Apple Y.png" alt="Apple letter"/></div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <script>window.onload = function() {$A.click(function() {
+      $( "#toggle" ).effect( "shake" );
+    });
+    };</script>
+    <script src="HGJS.js"></script>
+  </body>
+</html>
